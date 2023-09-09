@@ -11,9 +11,9 @@ int main()
     cout<<"Enter number b:";
     cin>>b;
 
-    temp=b;
-    b=a;
-    a=temp;
+    temp=a;
+    a=b;
+    b=temp;
 
     cout<<"a:"<<a<<endl;
     cout<<"b:"<<b;
