@@ -29,7 +29,7 @@ int main()
         break;
 
         default:
-        cout<<"Not a Vowel!";
+        cout<<"Constant!";
 
 
     }
