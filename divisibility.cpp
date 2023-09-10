@@ -10,8 +10,7 @@ int main()
         {
             cout<<i;
             break;
-        }
-      
+        }   
 }
 return 0;
 }
