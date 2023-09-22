@@ -24,7 +24,13 @@ int main()
     cout<<"Size: "<<arr.size()<<endl;
     cout<<"Capacity: "<<arr.capacity()<<endl;
 
-    arr.resize(5);
+    arr.resize(10);
     cout<<"Size: "<<arr.size()<<endl;
     cout<<"Capacity: "<<arr.capacity()<<endl;
+
+    arr.pop_back();
+    arr.pop_back();
+    cout<<"Size: "<<arr.size()<<endl;
+    cout<<"Capacity: "<<arr.capacity()<<endl;
+    
 }
