@@ -13,7 +13,7 @@ int main()
 
 // Pointers in Arrays
 
-    int arr[10]={0,9,2,1,7,0,1,6,5,8};
+    int arr[10]={0,9,2,1,7,0,1,6,5,8};   // 40 bytes
     cout<< *arr<<endl;
     cout<<*(arr+1) + 1<<endl;
 
@@ -21,6 +21,14 @@ int main()
     cout<<i[arr]<<endl;
     cout<<sizeof(arr)<<" "<<&arr[1]<<endl;
 
-
+    int c;
+    cout<<"Enter choice: ";
+    cin>>c;
+    if(c<=6)
+    {
+        cout<<*(arr+c)+3<<endl;
+    }
+    else 
+    cout<<"Invalid choice!"<<endl; 
 
 }
